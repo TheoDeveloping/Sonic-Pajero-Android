@@ -1197,7 +1197,7 @@ class PlayState extends MusicBeatState
 		creditsTxt.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
 		creditsTxt.borderSize = 1.2;
 		creditsTxt.scrollFactor.set();
-		creditsTxt.visible = true;
+		creditsTxt.visible = !ClientPrefs.hideHud;
 		add(creditsTxt);
 
 		strumLineNotes.cameras = [camHUD];
