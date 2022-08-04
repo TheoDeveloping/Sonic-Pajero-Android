@@ -291,7 +291,7 @@ class TitleState extends MusicBeatState
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
 		logoBl.animation.addByPrefix('bump', 'logop', 24, false);
 		logoBl.animation.play('bump');
-		logoBl.scale.set(0.8, 0.8);
+		logoBl.scale.set(0.7, 0.7);
 		logoBl.updateHitbox();
 		logoBl.screenCenter();
 		// logoBl.color = FlxColor.BLACK;
@@ -332,6 +332,8 @@ class TitleState extends MusicBeatState
 				gfDance.animation.addByIndices('danceRight', 'gfDance', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
 		}
 		gfDance.antialiasing = ClientPrefs.globalAntialiasing;
+		//esa wea es para hacer invisible a la gf, xD
+		gfDance.alpha = 0;
 
 		add(gfDance);
 		gfDance.shader = swagShader.shader;
@@ -667,16 +669,14 @@ class TitleState extends MusicBeatState
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Psych Engine by'], 15);
+					createCoolText(['Port Made By'], 15);
 					#else
 					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
 					#end
 				// credTextShit.visible = true;
 				case 4:
 					#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 15);
-					addMoreText('RiverOaken', 15);
-					addMoreText('shubs', 15);
+					addMoreText('TheoDeveloper', 15);
 					#else
 					addMoreText('present');
 					#end
