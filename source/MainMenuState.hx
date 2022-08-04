@@ -212,6 +212,19 @@ class MainMenuState extends MusicBeatState
 				else
 				{
 					selectedSomethin = true;
+					
+					var daChoiseSound:String = optionShit[curSelected];
+					
+					//el codigo pa q se reprodusca el sonido, intente en el da choise del enter, pero suena tarde, matri, zi ves esto dime tetas al md TheoDev#0001
+					switch (daChoiseSound)
+					{
+					    	case 'pajero':
+								FlxG.sound.play(Paths.sound('masturbasuceso'));
+							case 'credits':
+								FlxG.sound.play(Paths.sound('confirmMenu'));
+							case 'options':
+								FlxG.sound.play(Paths.sound('confirmMenu'));
+					}
 
 					if(ClientPrefs.flashing) FlxFlicker.flicker(magenta, 1.1, 0.15, false);
 
@@ -236,14 +249,14 @@ class MainMenuState extends MusicBeatState
 								switch (daChoice)
 								{
 									case 'pajero':
-										FlxG.sound.play(Paths.sound('masturbasuceso'));
+										//FlxG.sound.play(Paths.sound('masturbasuceso'));
                                         PlayState.SONG = Song.loadFromJson('milf-hard', 'milf');
                                         LoadingState.loadAndSwitchState(new PlayState());
 									case 'credits':
-										FlxG.sound.play(Paths.sound('confirmMenu'));
+										//FlxG.sound.play(Paths.sound('confirmMenu'));
 										MusicBeatState.switchState(new CreditsState());
 									case 'options':
-										FlxG.sound.play(Paths.sound('confirmMenu'));
+										//FlxG.sound.play(Paths.sound('confirmMenu'));
 										LoadingState.loadAndSwitchState(new options.OptionsState());
 								}
 							});

@@ -201,6 +201,7 @@ class PlayState extends MusicBeatState
 	public var botplaySine:Float = 0;
 	public var botplayTxt:FlxText;
 	
+	public var creditsSine:Float = 0;
 	public var creditsTxt:FlxText;
 
 	public var iconP1:HealthIcon;
@@ -1193,7 +1194,7 @@ class PlayState extends MusicBeatState
 			botplayTxt.y = timeBarBG.y - 78;
 		}
 		
-	    creditsTxt = new FlxText(800, timeBarBG.y + 5, FlxG.width - 800, "Ported By TheoDev", 32);
+	    creditsTxt = new FlxText(800, timeBarBG.y + 15, FlxG.width - 800, "Ported By TheoDev", 32);
 		creditsTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		creditsTxt.scrollFactor.set();
 		creditsTxt.borderSize = 1.25;
@@ -3003,6 +3004,11 @@ class PlayState extends MusicBeatState
 			botplaySine += 180 * elapsed;
 			botplayTxt.alpha = 1 - Math.sin((Math.PI * botplaySine) / 180);
 		}
+		if(creditsTxt.visible) {
+			creditsSine += 180 * elapsed;
+			creditsTxt.alpha = 1 - Math.sin((Math.PI * creditsSine) / 180);
+		}
+
 
 		if (controls.PAUSE #if android || FlxG.android.justReleased.BACK #end && startedCountdown && canPause)
 		{
