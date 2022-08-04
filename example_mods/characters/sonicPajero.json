@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "PajonicIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				134,
+				5
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "PajonLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				-1
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "PajonDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				36,
+				41
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "PajonUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-147,
+				29
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "PajonRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				178,
+				-58
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "PajonLMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				-98
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "PajonDMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				21,
+				121
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "PajonUMiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-187,
+				37
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "PajonRMiss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				-11
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "PajonMuertoLoop"
+		},
+		{
+			"offsets": [
+				0,
+				-11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "PajonMuertoLoop"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				-10
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "PajonMuertolol",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/pajero",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "pajero",
+	"flip_x": false,
+	"healthbar_colors": [
+		47,
+		49,
+		126
+	],
+	"camera_position": [
+		180,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

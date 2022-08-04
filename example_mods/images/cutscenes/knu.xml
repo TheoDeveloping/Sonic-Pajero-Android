@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="knu.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="knu0000" x="0" y="0" width="1698" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0001" x="0" y="0" width="1698" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0002" x="1698" y="0" width="1618" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0003" x="1698" y="0" width="1618" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0004" x="3316" y="0" width="1570" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0005" x="3316" y="0" width="1570" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0006" x="4886" y="0" width="1537" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0007" x="4886" y="0" width="1537" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0008" x="6423" y="0" width="1509" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0009" x="6423" y="0" width="1509" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0010" x="0" y="852" width="1488" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0011" x="0" y="852" width="1488" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0012" x="1488" y="852" width="1464" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0013" x="1488" y="852" width="1464" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0014" x="2952" y="852" width="1434" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0015" x="4386" y="852" width="1434" height="856" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0016" x="5820" y="852" width="1403" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0017" x="5820" y="852" width="1403" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0018" x="0" y="1708" width="1379" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0019" x="0" y="1708" width="1379" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0020" x="1379" y="1708" width="1361" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0021" x="1379" y="1708" width="1361" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0022" x="2740" y="1708" width="1352" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0023" x="2740" y="1708" width="1352" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0024" x="4092" y="1708" width="1346" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0025" x="4092" y="1708" width="1346" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0026" x="5438" y="1708" width="1335" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0027" x="5438" y="1708" width="1335" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0028" x="6773" y="1708" width="1329" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0029" x="6773" y="1708" width="1329" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0030" x="0" y="2560" width="1327" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0031" x="0" y="2560" width="1327" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0032" x="1327" y="2560" width="1326" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0033" x="2653" y="2560" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0034" x="3965" y="2560" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0035" x="5277" y="2560" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0036" x="6589" y="2560" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0037" x="0" y="3412" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0038" x="1312" y="3412" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0039" x="2624" y="3412" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0040" x="3936" y="3412" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0041" x="5248" y="3412" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0042" x="6560" y="3412" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0043" x="0" y="4264" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0044" x="1312" y="4264" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0045" x="2624" y="4264" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0046" x="3936" y="4264" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0047" x="5248" y="4264" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0048" x="6560" y="4264" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0049" x="0" y="5116" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0050" x="1312" y="5116" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0051" x="2624" y="5116" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0052" x="3936" y="5116" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0053" x="5248" y="5116" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0054" x="6560" y="5116" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0055" x="0" y="5968" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0056" x="1312" y="5968" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0057" x="2624" y="5968" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0058" x="3936" y="5968" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0059" x="3936" y="5968" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0060" x="5248" y="5968" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+	<SubTexture name="knu0061" x="5248" y="5968" width="1312" height="852" frameX="0" frameY="0" frameWidth="1698" frameHeight="856"/>
+</TextureAtlas>

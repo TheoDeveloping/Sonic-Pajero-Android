@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mainmenustorymodemasturbasuceso.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pajero basic0000" x="0" y="0" width="755" height="185" frameX="0" frameY="0" frameWidth="755" frameHeight="187"/>
+	<SubTexture name="pajero basic0001" x="755" y="0" width="740" height="183" frameX="-5" frameY="-4" frameWidth="755" frameHeight="187"/>
+	<SubTexture name="pajero basic0002" x="0" y="185" width="739" height="182" frameX="-7" frameY="0" frameWidth="755" frameHeight="187"/>
+	<SubTexture name="pajero white0000" x="739" y="185" width="763" height="189"/>
+	<SubTexture name="pajero white0001" x="0" y="374" width="755" height="185" frameX="-4" frameY="-4" frameWidth="763" frameHeight="189"/>
+	<SubTexture name="pajero white0002" x="755" y="374" width="750" height="180" frameX="-5" frameY="-8" frameWidth="763" frameHeight="189"/>
+</TextureAtlas>

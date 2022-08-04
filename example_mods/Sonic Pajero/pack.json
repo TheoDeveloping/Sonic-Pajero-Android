@@ -1,0 +1,6 @@
+{
+  "name": "Sonic Pajero",
+  "description": "Ayuda a sonic a terminar su paja del siglo sin ser interrumpido por sus amigos.",
+  "restart": false,
+  "color": [47, 49, 126]
+}

@@ -1,0 +1,14 @@
+{
+  "storyName": "pajero",
+  "difficulties": "pajero",
+  "hideFreeplay": false,
+  "weekBackground": "tank",
+  "weekBefore": "pajero",
+  "freeplayColor": [146, 113, 253],
+  "startUnlocked": true,
+  "weekCharacters": ["pajero", "bf", "gf"],
+  "songs": [["Masturbasuceso", "pajero", [235, 142, 4]]],
+
+  "hideStoryMode": true,
+  "weekName": "pajero"
+}

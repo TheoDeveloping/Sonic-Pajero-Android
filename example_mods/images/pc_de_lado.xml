@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pc de lado.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="compu gamer0000" x="343" y="10" width="278" height="187" frameX="-27" frameY="-30" frameWidth="323" frameHeight="218"/>
+	<SubTexture name="compu gamer0001" x="343" y="10" width="278" height="187" frameX="-27" frameY="-30" frameWidth="323" frameHeight="218"/>
+	<SubTexture name="compu gamer0002" x="10" y="10" width="323" height="218"/>
+	<SubTexture name="compu gamer0003" x="10" y="10" width="323" height="218"/>
+	<SubTexture name="compu gamer0004" x="10" y="238" width="316" height="210" frameX="-3" frameY="-8" frameWidth="323" frameHeight="218"/>
+	<SubTexture name="compu gamer0005" x="10" y="238" width="316" height="210" frameX="-3" frameY="-8" frameWidth="323" frameHeight="218"/>
+	<SubTexture name="compu gamer0006" x="336" y="238" width="308" height="209" frameX="-8" frameY="-9" frameWidth="323" frameHeight="218"/>
+	<SubTexture name="compu gamer0007" x="336" y="238" width="308" height="209" frameX="-8" frameY="-9" frameWidth="323" frameHeight="218"/>
+	<SubTexture name="compu gamer0008" x="336" y="238" width="308" height="209" frameX="-8" frameY="-9" frameWidth="323" frameHeight="218"/>
+	<SubTexture name="compu gamer0009" x="336" y="238" width="308" height="209" frameX="-8" frameY="-9" frameWidth="323" frameHeight="218"/>
+	<SubTexture name="compu gamer0010" x="336" y="238" width="308" height="209" frameX="-8" frameY="-9" frameWidth="323" frameHeight="218"/>
+	<SubTexture name="compu gamer0011" x="336" y="238" width="308" height="209" frameX="-8" frameY="-9" frameWidth="323" frameHeight="218"/>
+	<SubTexture name="compu gamer0012" x="336" y="238" width="308" height="209" frameX="-8" frameY="-9" frameWidth="323" frameHeight="218"/>
+	<SubTexture name="compu gamer0013" x="336" y="238" width="308" height="209" frameX="-8" frameY="-9" frameWidth="323" frameHeight="218"/>
+</TextureAtlas>

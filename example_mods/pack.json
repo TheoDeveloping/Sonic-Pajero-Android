@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+{
+	"name": "Name",
+	"description": "Description",
+	"restart":false,
+	"runsGlobally": false,
+	"color": [170, 0, 255]
+}
+=======
+{
+	"name": "Name",
+	"description": "Description",
+	"restart":false,
+	"color": [170, 0, 255]
+}
+>>>>>>> 12aa61a (upload with git bash loollll)

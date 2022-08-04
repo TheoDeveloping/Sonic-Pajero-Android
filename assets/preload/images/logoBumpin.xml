@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="logop.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="logop0000" x="0" y="0" width="1446" height="611" frameX="-57" frameY="-21" frameWidth="1513" frameHeight="632"/>
+	<SubTexture name="logop0001" x="0" y="0" width="1446" height="611" frameX="-57" frameY="-21" frameWidth="1513" frameHeight="632"/>
+	<SubTexture name="logop0002" x="1446" y="0" width="1426" height="600" frameX="-87" frameY="-32" frameWidth="1513" frameHeight="632"/>
+	<SubTexture name="logop0003" x="1446" y="0" width="1426" height="600" frameX="-87" frameY="-32" frameWidth="1513" frameHeight="632"/>
+	<SubTexture name="logop0004" x="0" y="611" width="1502" height="630" frameX="-7" frameY="-2" frameWidth="1513" frameHeight="632"/>
+	<SubTexture name="logop0005" x="0" y="611" width="1502" height="630" frameX="-7" frameY="-2" frameWidth="1513" frameHeight="632"/>
+	<SubTexture name="logop0006" x="1502" y="611" width="1495" height="632" frameX="0" frameY="0" frameWidth="1513" frameHeight="632"/>
+	<SubTexture name="logop0007" x="1502" y="611" width="1495" height="632" frameX="0" frameY="0" frameWidth="1513" frameHeight="632"/>
+	<SubTexture name="logop0008" x="0" y="1243" width="1457" height="620" frameX="-35" frameY="-12" frameWidth="1513" frameHeight="632"/>
+	<SubTexture name="logop0009" x="0" y="1243" width="1457" height="620" frameX="-35" frameY="-12" frameWidth="1513" frameHeight="632"/>
+	<SubTexture name="logop0010" x="1457" y="1243" width="1447" height="616" frameX="-45" frameY="-16" frameWidth="1513" frameHeight="632"/>
+	<SubTexture name="logop0011" x="1457" y="1243" width="1447" height="616" frameX="-45" frameY="-16" frameWidth="1513" frameHeight="632"/>
+	<SubTexture name="logop0012" x="0" y="1863" width="1443" height="614" frameX="-49" frameY="-18" frameWidth="1513" frameHeight="632"/>
+	<SubTexture name="logop0013" x="0" y="1863" width="1443" height="614" frameX="-49" frameY="-18" frameWidth="1513" frameHeight="632"/>
+</TextureAtlas>
