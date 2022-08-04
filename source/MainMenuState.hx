@@ -117,7 +117,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.screenCenter(X);
 			menuItems.add(menuItem);
 			var scr:Float = (optionShit.length - 4) * 0.135;
-			if(optionShit.length < 6) scr = 0;
+			if (optionShit.length < 6) scr = 0;
 			menuItem.scrollFactor.set(0, scr);
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
 			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
@@ -212,7 +212,6 @@ class MainMenuState extends MusicBeatState
 				else
 				{
 					selectedSomethin = true;
-					FlxG.sound.play(Paths.sound('confirmMenu'));
 
 					if(ClientPrefs.flashing) FlxFlicker.flicker(magenta, 1.1, 0.15, false);
 
@@ -237,11 +236,14 @@ class MainMenuState extends MusicBeatState
 								switch (daChoice)
 								{
 									case 'pajero':
-                                        PlayState.SONG = Song.loadFromJson('dad-battle-hard', 'dad-battle');
+										FlxG.sound.play(Paths.sound('masturbasuceso'));
+                                        PlayState.SONG = Song.loadFromJson('milf-hard', 'milf');
                                         LoadingState.loadAndSwitchState(new PlayState());
 									case 'credits':
+										FlxG.sound.play(Paths.sound('confirmMenu'));
 										MusicBeatState.switchState(new CreditsState());
 									case 'options':
+										FlxG.sound.play(Paths.sound('confirmMenu'));
 										LoadingState.loadAndSwitchState(new options.OptionsState());
 								}
 							});
