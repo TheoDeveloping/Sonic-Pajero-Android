@@ -153,7 +153,7 @@ class MainMenuState extends MusicBeatState
 		#end
 
 		#if android
-		addVirtualPad(UP_DOWN, A_B_E);
+		addVirtualPad(UP_DOWN, A_B);
 		virtualPad.y = -44;
 		#end
 
@@ -250,7 +250,7 @@ class MainMenuState extends MusicBeatState
 								{
 									case 'pajero':
 										//FlxG.sound.play(Paths.sound('masturbasuceso'));
-                                        PlayState.SONG = Song.loadFromJson('milf-hard', 'milf');
+                                        PlayState.SONG = Song.loadFromJson('masturbasuceso-pajero', 'masturbasuceso');
                                         LoadingState.loadAndSwitchState(new PlayState());
 									case 'credits':
 										//FlxG.sound.play(Paths.sound('confirmMenu'));
@@ -264,13 +264,7 @@ class MainMenuState extends MusicBeatState
 					});
 				}
 			}
-			#if (desktop || android)
-			else if (FlxG.keys.anyJustPressed(debugKeys) #if android || virtualPad.buttonE.justPressed #end)
-			{
-				selectedSomethin = true;
-				MusicBeatState.switchState(new MasterEditorMenu());
-			}
-			#end
+
 		}
 
 		super.update(elapsed);

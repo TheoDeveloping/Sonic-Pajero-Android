@@ -679,14 +679,14 @@ class TitleState extends MusicBeatState
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Port By'], 15);
+					createCoolText(['Port', 'By'], 15);
 					#else
 					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
 					#end
 				// credTextShit.visible = true;
 				case 4:
 					#if PSYCH_WATERMARKS
-					addMoreText('TheoDeveloper', 15);
+					addMoreText('TheoDev', 15);
 					theoLogo.visible = true;
 					#else
 					addMoreText('present');

@@ -115,7 +115,20 @@ class LoadingState extends MusicBeatState
 		super.update(elapsed);
 		loadingSpr.setGraphicSize(Std.int(0.88 * FlxG.width + 0.9 * (loadingSpr.width - 0.88 * FlxG.width)));
 		loadingSpr.updateHitbox();
-		if(controls.ACCEPT)
+		
+		var pressedEnter:Bool = FlxG.keys.justPressed.ENTER || controls.ACCEPT;
+		
+		#if android
+		for (touch in FlxG.touches.list)
+		{
+			if (touch.justPressed)
+			{
+				pressedEnter = true;
+			}
+		}
+		#end
+		
+		if (pressedEnter)
 		{
 			loadingSpr.setGraphicSize(Std.int(loadingSpr.width + 60));
 			loadingSpr.updateHitbox();
