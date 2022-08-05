@@ -148,6 +148,16 @@ class LoadingState extends MusicBeatState
 	inline static public function loadAndSwitchState(target:FlxState, stopMusic = false)
 	{
 		MusicBeatState.switchState(getNextState(target, stopMusic));
+		
+		var bg:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, 0xffcaff4d);
+		add(bg);
+		funkay = new FlxSprite(0, 0).loadGraphic(Paths.image('pajeroLoad.png'));
+		funkay.setGraphicSize(0, FlxG.height);
+		funkay.updateHitbox();
+		funkay.antialiasing = ClientPrefs.globalAntialiasing;
+		add(funkay);
+		funkay.scrollFactor.set();
+		funkay.screenCenter();
 	}
 	
 	static function getNextState(target:FlxState, stopMusic = false):FlxState
