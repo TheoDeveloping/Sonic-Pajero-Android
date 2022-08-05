@@ -1193,7 +1193,7 @@ class PlayState extends MusicBeatState
 			botplayTxt.y = timeBarBG.y - 78;
 		}
 		
-        creditsTxt = new FlxText(4,FlxG.height - 10 ,15,"Port By TheoDeveloper", 16);
+        creditsTxt = new FlxText(4,FlxG.height - 30 , 0,"Port By TheoDeveloper", 16);
 		creditsTxt.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
 		creditsTxt.borderSize = 1.2;
 		creditsTxt.scrollFactor.set();
